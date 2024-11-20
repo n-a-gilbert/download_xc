@@ -10,4 +10,8 @@ For this example, I want to download recordings for reguarly reported species fr
 
 ![image](https://github.com/user-attachments/assets/8b358c75-0744-41c8-93c9-ea142abc4975)
 
+## Step 2. Format the .txt file.
+
+The text file has some weird/unforunate formatting. There is a bunch of white space at the top, and then sample size information at the top
+
 

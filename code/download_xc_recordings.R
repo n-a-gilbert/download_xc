@@ -68,7 +68,7 @@ download_these <- kk_metadata |>
   dplyr::mutate(sci = paste(Genus, Specific_epithet)) |> 
   dplyr::left_join(sci_names_to_query) |> 
   dplyr::group_by(sci, type) |>
-  dplyr::arrange(sci, type, -qual) |>
+  dplyr::arrange(sci, type, qual) |>
   # slice first row for each species and call type. should be arranged so the first row has the highest quality
   dplyr::slice_head(n = 1) |> 
   dplyr::ungroup() |> 

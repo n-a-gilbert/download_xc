@@ -12,6 +12,9 @@ For this example, I want to download recordings for reguarly reported species fr
 
 ## Step 2. Format the .txt file.
 
-The text file has some weird/unforunate formatting. There is a bunch of white space at the top, and then sample size information at the top
+The text file has some weird/unforunate formatting. There is a bunch of white space at the top, and then sample size information at the top. Delete the white space and the sample size information so the first data recorded is the name of the first species (here, Lesser Whistling Duck). 
+
+![image](https://github.com/user-attachments/assets/e61c94fa-9d9e-42be-8100-406ad9ff2e48)
+
 
 

@@ -16,5 +16,14 @@ The text file has some weird/unforunate formatting. There is a bunch of white sp
 
 ![image](https://github.com/user-attachments/assets/e61c94fa-9d9e-42be-8100-406ad9ff2e48)
 
+## Step 3. Wrangle the text file to clean up scientific names and get reporting frequencies. 
 
+The script [download_xc_recordings.R](./code/download_xc_recordings.R) first does some wrangling on the eBird text file to clean up the scientific names. You may also want to filter down the species list to omit species that are rare or only occur in the focal region seasonally. Since I'm going to Thailand in the winter, I filtered down to species that occur in the winter months and am retaining species that are recorded on at least 1% of checklists.
 
+## Step 4. Query Xento-Canto metadata and specify what types of recordings you want to download. 
+
+The R package [warbleR](https://marce10.github.io/warbleR/) makes it easy to query the Xeno-Canto database. The script [download_xc_recordings.R](./code/download_xc_recordings.R) first queries the database for all recordings of the species of interest. I then do some wrangling on the metadata file because I want to download a variety of call types (I simplify the vocalization type column into "song", "call", "song & call", and "other"), of the best quality possible, and ideally want recordings that are not too long (I used 90 seconds as my cutoff). This produces a table I call "download_these", which contains a column of the recording ID and common name and call type to name the downloaded files. 
+
+## Step 5. Download the recordings. 
+
+The last step in [download_xc_recordings.R](./code/download_xc_recordings.R) is looping through the download_these table and recording each file. Once the download is complete, the recordings can be transferred to a phone and collated into a Spotify playlist.

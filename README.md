@@ -1,8 +1,6 @@
 # Information and code to download recordings to prepare for birding trips
 
-I've found that the best way to learn calls (apart from actually getting out and birding) is to listen to recordings over and over and over again. Training the neural net, if you will. Well, that is annoying and laborious to do manually on eBird or Merlin. Therefore it is desirable to assemble a playlist that can be listened to (and re-listened to) while doing other tasks like driving, cooking, etc., to learn bird calls. But. Downloading lots of Xeno-Canto recordings is a huge pain in the ass. 
-
-Here is a semi-automated way to download recordings for focal areas; once downloaded, these recordings can be put on a phone and collated into Spotify playlists. 
+I've found that the best way to learn calls (apart from actually getting out and birding) is to listen to recordings over and over and over again. Training the neural net, if you will. Well, that is annoying and laborious to do manually on eBird or Merlin. Therefore it is desirable to assemble a playlist that can be listened to (and re-listened to) while doing other tasks like driving, cooking, etc., to learn bird calls. But. Downloading lots of Xeno-Canto recordings is a huge pain in the ass. Huge shoutout to Marcelo Araya-Salas and Grace Smith-Vidaurre for their excellent [warbleR](https://marce10.github.io/warbleR/) package which allows for automated download of XC recordings.
 
 ## Step 1. Get species list and frequencies for focal regions or hotspots from eBird. 
 

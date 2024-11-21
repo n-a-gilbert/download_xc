@@ -24,4 +24,12 @@ The R package [warbleR](https://marce10.github.io/warbleR/) makes it easy to que
 
 ## Step 5. Download the recordings. 
 
-The last step in [download_xc_recordings.R](./code/download_xc_recordings.R) is looping through the download_these table and downloading each file. Once the download is complete, the recordings can be transferred to a phone and collated into a Spotify playlist.
+The last step in [download_xc_recordings.R](./code/download_xc_recordings.R) is looping through the download_these table and downloading each file.
+
+## Step 6. Transfer recordings to mobile device.
+
+Once the recordings downloaded, I was able to easily transfer them onto my phone via a USB cable. 
+
+## Step 7. Play recordings using Spotify or Foldplay apps.
+
+It is possible to play local files with Spotify (you have to change app settings to allow access to local files). **However, Spotify has the irksome feature of not recognizing folder structure.** So, if you download recordings for multiple hotspots or regions, and want to have them stashed in separate playlists for studying, your SOL with Spotify. An alternative option I found is the [Foldplay app](https://play.google.com/store/apps/details?id=net.pnhdroid.foldplay&hl=en_US&pli=1), which respects folder structure and has the same playlist features as Spotify (shuffle, etc.)

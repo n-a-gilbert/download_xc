@@ -24,4 +24,4 @@ The R package [warbleR](https://marce10.github.io/warbleR/) makes it easy to que
 
 ## Step 5. Download the recordings. 
 
-The last step in [download_xc_recordings.R](./code/download_xc_recordings.R) is looping through the download_these table and recording each file. Once the download is complete, the recordings can be transferred to a phone and collated into a Spotify playlist.
+The last step in [download_xc_recordings.R](./code/download_xc_recordings.R) is looping through the download_these table and downloading each file. Once the download is complete, the recordings can be transferred to a phone and collated into a Spotify playlist.
